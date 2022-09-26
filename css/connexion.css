@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(58, 41, 86);
+	color: #FFF;
+	font-family: tahoma, verdana, sans-serif;
+}
+/*Design de la section formulaire*/
+#content {
+	width: 300px;
+	margin: auto;
+	background-color: rgb(184, 175, 176);
+	margin-top: 130px;
+	padding: 30px;
+	border-radius: 30px;
+}
+#formulaire .image {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.image img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+#formulaire .chmp {
+	width: 93%;
+	padding: 10px;
+	font-size: 1.2rem;
+	margin-bottom: 15px;
+}
+.section {
+	display: flex;
+}
+.link {
+	margin-left: 46px;
+}
+.link a {
+	text-decoration: none;
+	color: #FFF;
+}
+button {
+	width: 100%;
+	background-color: darkblue;
+	color: #FFF;
+	font-size: 2em;
+	margin-top: 15px;
+	border: 0;
+}
+button:hover {
+	background-color: rgb(58, 41, 86);
+	color: white;
+}
